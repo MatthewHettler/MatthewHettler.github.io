@@ -1,8 +1,15 @@
-#jumboTronImage {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+.headerImage {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("https://images.pexels.com/photos/60626/pexels-photo-60626.jpeg?cs=srgb&dl=macbook-pro-macbook-computer-programming-60626.jpg&fm=jpg");
     background-size: cover;
     background-position: center;
     height: 50vh;
+    color: white;
+}
+.jumbotronImage {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    height: 33vh;
     color: white;
 }
 
@@ -26,4 +33,13 @@ p.lead {
 
 .aboutMeStyling {
     background-color: blue;
+}
+
+.bodyStyle {
+    background-color: #333940;
+}
+
+hr {
+    background-color: #FFFFFF;
+    opacity: 20%;
 }
