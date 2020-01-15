@@ -53,3 +53,19 @@ hr {
     height: 50px;
 }
 
+/*a .nav-link {*/
+/*    color: white;*/
+/*}*/
+
+a .nav-link:hover {
+    text-decoration: underline;
+}
+
+a .nav-link:active {
+    color: white;
+}
+
+a .nav-link:visited {
+    color: yellow;
+}
+
