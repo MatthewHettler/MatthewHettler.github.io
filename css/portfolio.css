@@ -2,7 +2,7 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("https://images.pexels.com/photos/60626/pexels-photo-60626.jpeg?cs=srgb&dl=macbook-pro-macbook-computer-programming-60626.jpg&fm=jpg");
     background-size: cover;
     background-position: center;
-    height: 55vh;
+    height: 58vh;
     color: white;
 }
 .jumbotronImage {
@@ -53,6 +53,20 @@ hr {
     height: 50px;
 }
 
+.fixed {
+    /*position: fixed;*/
+}
+
+.indent {
+    padding: 10px;
+}
+
+img#sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
 /*a .nav-link {*/
 /*    color: white;*/
 /*}*/
@@ -69,3 +83,8 @@ a .nav-link:visited {
     color: yellow;
 }
 
+@media(min-width:576px){
+    #hideButton{
+        display:none;
+    }
+}

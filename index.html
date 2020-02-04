@@ -16,58 +16,13 @@
 </head>
 <!--//////////////////////////////////////////// BODY START ///////////////////////////////////////////////////-->
 <body class="bodyStyle">
-
+<a name="homeAnchor"></a>
 <!--///////// HEADER START /////////-->
 <main role="main" class="headerImage">
 
-    <!--    <div class="collapse bg-dark" id="navbarHeader">-->
-    <!--        <div class="container">-->
-    <!--            <div class="row">-->
-    <!--                <div class="col-sm-8 col-md-7 py-4">-->
-    <!--                    <h4 class="text-white">About</h4>-->
-    <!--                    <p class="text-muted">Add some information about the album below, the author, or any other-->
-    <!--                        background context. Make it a few sentences long so folks can pick up some informative tidbits.-->
-    <!--                        Then, link them off to some social networking sites or contact information.</p>-->
-    <!--                </div>-->
-    <!--                <div class="col-sm-4 offset-md-1 py-4">-->
-    <!--                    <h4 class="text-white">Contact</h4>-->
-    <!--                    <ul class="list-unstyled">-->
-    <!--                        <li><a href="#" class="text-white">Follow on Twitter</a></li>-->
-    <!--                        <li><a href="#" class="text-white">Like on Facebook</a></li>-->
-    <!--                        <li><a href="#" class="text-white">Email me</a></li>-->
-    <!--                    </ul>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--    <div class="navbar navbar-dark bg-transparent shadow-sm py-0">-->
-    <!--        <div class="container d-flex justify-content-between">-->
-    <!--            <a href="#homeAnchor" class="navbar-brand d-flex align-items-center">-->
-    <!--                <img src="img/software%20engineer-1.1s-128px.png" width="50" height="50" alt="">-->
-    <!--                <strong>Home</strong>-->
-    <!--            </a>-->
-    <!--            <a href="#aboutAnchor" class="navbar-brand d-flex align-items-center">-->
-    <!--                <strong>About Me</strong>-->
-    <!--            </a>-->
-    <!--            <a href="#resumeAnchor" class="navbar-brand d-flex align-items-center">-->
-    <!--                <strong>Resume</strong>-->
-    <!--            </a>-->
-    <!--            <a href="#projectsAnchor" class="navbar-brand d-flex align-items-center">-->
-    <!--                <strong>Projects</strong>-->
-    <!--            </a>-->
-    <!--            <a href="#socialAnchor" class="navbar-brand d-flex align-items-center">-->
-    <!--                <strong>Social Media</strong>-->
-    <!--            </a>-->
-    <!--            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"-->
-    <!--                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">-->
-    <!--                <span class="navbar-toggler-icon"></span>-->
-    <!--            </button>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
     <div class="navbar navbar-expand-sm navbar-dark px-3" role="navigation">
-        <a class="navbar-brand" href="#homeAnchor">
-            <img src="img/software%20engineer-1.1s-128px.png" alt="coderMan" class="navbar-logo">
+        <a class="navbar-brand fixed" href="#homeAnchor">
+            <img src="img/software%20engineer-1.1s-128px.png" alt="coderMan" class="navbar-logo" id="sticky">
         </a>
         <div class="collapse navbar-collapse" id="portfolioNavbar">
             <ul class="navbar-nav">
@@ -77,20 +32,21 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#aboutAnchor">About Me</a>
+                    <a class="nav-link indent" href="#aboutAnchor">About Me</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#resumeAnchor">Resume</a>
+                    <a class="nav-link indent" href="#resumeAnchor">Resume</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#projectsAnchor">Projects</a>
+                    <a class="nav-link indent" href="#projectsAnchor">Projects</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#socialAnchor">Social Media</a>
+                    <a class="nav-link indent" href="#socialAnchor">Social Media</a>
                 </li>
             </ul>
         </div>
-        <button class="navbar-togger" type="button" data-toggle="collapse" data-target="#portfolioNavbar"
+        <button class="navbar-togger" id="hideButton" type="button" data-toggle="collapse"
+                data-target="#portfolioNavbar"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -107,7 +63,8 @@
                 <div class="col-sm-12">
                     <h1 class="jumbotron-heading">Matthew Hettler's Portfolio</h1>
                     <div class="leadDivStyling col-sm-12">
-                        <p class="lead">Ambitious Software Developer with a vision to create sites that help and inspire! </p>
+                        <p class="lead">Ambitious Software Developer with a vision to create sites that help and
+                            inspire!</p>
                     </div>
                 </div>
             </div>
