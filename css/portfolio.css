@@ -61,6 +61,11 @@ hr {
     padding: 10px;
 }
 
+.resume {
+    width: 700px;
+    height: 700px;
+}
+
 img#sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
