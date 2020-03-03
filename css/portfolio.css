@@ -66,6 +66,11 @@ hr {
     height: 700px;
 }
 
+.iconSizing {
+    height: 120px;
+    width: 120px;
+}
+
 img#sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
