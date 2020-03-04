@@ -1,16 +1,9 @@
-.headerImage {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("https://images.pexels.com/photos/60626/pexels-photo-60626.jpeg?cs=srgb&dl=macbook-pro-macbook-computer-programming-60626.jpg&fm=jpg");
-    background-size: cover;
-    background-position: center;
-    height: 58vh;
-    color: white;
+html {
+    background: #2C3E50;
 }
-.jumbotronImage {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url("https://images.pexels.com/photos/1102797/pexels-photo-1102797.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-    background-size: cover;
-    background-position: center;
-    height: 33vh;
-    color: white;
+
+.navbar-toggler {
+    background: #2e8b57 !important;
 }
 
 .leadDivStyling {
@@ -18,17 +11,30 @@
     width: 45em;
 }
 
-.jumbotron-heading {
-    color: #FFFFFF;
-    text-shadow: #474747 3px 5px 2px;
-}
-
 p.lead {
     color: #9A9DA0;
 }
 
 .jumbotron {
+    background: #2e8b57 !important;
+    /*background: #CC5500 !important;*/
+    margin-top: 4.7em;
+    margin-bottom: 0 !important;
     border-radius: 0 !important;
+    height: 100vh;
+    padding: 0;
+}
+
+.jumbotron-heading {
+    font-size: 44px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.jumbotron-p {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .aboutMeStyling {
@@ -36,21 +42,26 @@ p.lead {
 }
 
 .bodyStyle {
+    font-family: 'Montserrat', sans-serif;
     background-color: #333940;
+    margin-bottom: 0 !important;
 }
 
 hr {
     background-color: #FFFFFF;
-    opacity: 20%;
 }
 
-.container-styling {
-    margin-top: 50px;
-}
+/*.container-styling {*/
+/*    margin-top: 50px;*/
+/*}*/
 
 .navbar-logo {
     width: auto;
     height: 50px;
+}
+
+.navbar {
+    background: #2C3E50;
 }
 
 .fixed {
@@ -77,20 +88,25 @@ img#sticky {
     top: 0;
 }
 
-/*a .nav-link {*/
-/*    color: white;*/
-/*}*/
-
-a .nav-link:hover {
-    text-decoration: underline;
+a.nav-link {
+    color: white;
+    border: white;
 }
 
-a .nav-link:active {
+a.nav-link:hover {
+    color: #898C8D;
+}
+
+a.nav-link:active {
+    color: grey;
+}
+
+a.nav-link:visited {
     color: white;
 }
 
-a .nav-link:visited {
-    color: yellow;
+a.nav-link:visited:hover {
+    color: #898C8D;
 }
 
 @media(min-width:576px){

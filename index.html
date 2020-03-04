@@ -12,96 +12,94 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
 
 </head>
 <!--//////////////////////////////////////////// BODY START ///////////////////////////////////////////////////-->
 <body class="bodyStyle">
 <a name="homeAnchor"></a>
-<!--///////// HEADER START /////////-->
-<main role="main" class="headerImage">
-
-    <div class="navbar navbar-expand-sm navbar-dark px-3" role="navigation">
-        <a class="navbar-brand fixed" href="#homeAnchor">
-            <img src="img/MHLogo.png" alt="..." class="navbar-logo" id="sticky">
-        </a>
-        <div class="collapse navbar-collapse" id="portfolioNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">
-                        <span class="sr-only">(current)</span>
-                    </a>
-                </li>
-                <li>
-                    <a class="nav-link indent" href="#aboutAnchor">About Me</a>
-                </li>
-                <li>
-                    <a class="nav-link indent" href="#resumeAnchor">Resume</a>
-                </li>
-                <li>
-                    <a class="nav-link indent" href="#projectsAnchor">Projects</a>
-                </li>
-                <li>
-                    <a class="nav-link indent" href="#socialAnchor">Social Media</a>
-                </li>
-            </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/MHLogo.png" alt="..."
+                                                                            class="navbar-logo" id="sticky"></a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded"
+                    type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#aboutAnchor">About Me</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resumeAnchor">Resume</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                           href="#projectsAnchor">Projects</a>
+                    </li>
+                    <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#socialAnchor">Social</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <button class="navbar-togger" id="hideButton" type="button" data-toggle="collapse"
-                data-target="#portfolioNavbar"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-    </div>
+    </nav>
 
     <!--///////// HEADER END /////////-->
 
 
     <!--///////// JUMBOTRON START /////////-->
 
-    <section class="jumbotronImage jumbotron text-center">
+    <section class="jumbotron text-center d-flex flex-column justify-content-center">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="jumbotron-heading">Matthew Hettler's Portfolio</h1>
-                    <div class="leadDivStyling col-sm-12">
-                        <p class="lead">Ambitious Software Developer with a vision to create sites that help and
-                            inspire!</p>
+                    <h1 class="jumbotron-heading text-uppercase font-weight-bold">Matthew Hettler</h1>
+                    <hr size="3">
+                    <div>
+                        <p class="jumbotron-p">Software Developer - Masters Graduate - Ambitious Professional </p>
                     </div>
                 </div>
             </div>
         </div>
+        <a name="aboutAnchor"></a>
     </section>
-
-</main>
 <!--///////// JUMBOTRON END /////////-->
 
 
-<!--///////// CONTAINER START /////////-->
-<div class="container container-styling">
+<!--/////////  CARDS START /////////-->
     <!-- Content here -->
-    <div class="card shadow-lg p-3 mb-5 bg-white" style="width: 100%;">
+    <div class="card shadow-lg mb-0 bg-white rounded-0" style="width: 100%;">
         <div class="card-body">
-            <h1 class="card-title"><a name="aboutAnchor">About Me</a></h1>
+            <h1 class="card-title">ABOUT</h1>
             <p>An ambitious software developer with aspirations to grow and learn any skillset needed to
                 get the job done. Solving problems, whether they're simple or complex, is a strong passion
                 of mine. Opportunities that utilizes or develops my skills to solve real world problems, that
                 help or inspire, are welcome.</p>
         </div>
+        <a name="resumeAnchor"></a>
     </div>
     <!--=================================================================================================================-->
-    <div class="card shadow-lg p-3 mb-5 bg-white" style="width: 100%;">
+    <div class="card shadow-lg mb-0 bg-white rounded-0" style="width: 100%;">
         <div class="card-body">
-            <h1 class="card-title"><a name="resumeAnchor">Resume</a></h1>
+            <h1 class="card-title">RESUME</h1>
             <object data="img/Matthew_Hettler.pdf" type="application/pdf" class="resume embed-responsive">
                 <p>It appears you don't have a PDF plugin for this browser.
                     Not a problem, you can <a href="img/Matthew_Hettler.pdf">click here</a> to
                     download the PDF file.</p>
             </object>
         </div>
+        <a name="projectsAnchor"></a>
     </div>
     <!--=================================================================================================================-->
-    <div class="card shadow-lg p-3 mb-5 bg-white" style="width: 100%;">
+    <div class="card shadow-lg mb-0 bg-white rounded-0" style="width: 100%;">
         <div class="card-body">
-            <h1 class="card-title"><a name="projectsAnchor">Projects</a></h1>
+            <h1 class="card-title">PORTFOLIO</h1>
 
             <div class="row">
                 <div class="col-sm-6 card mx-auto" style="width: 18rem;">
@@ -183,48 +181,42 @@
 
 
         </div>
+        <a name="socialAnchor"></a>
     </div>
     <!--=================================================================================================================-->
-    <div class="card shadow-lg p-3 mb-5 bg-white" style="width: 100%;">
+    <div class="card shadow-lg mb-0 bg-white rounded-0" style="width: 100%;">
         <div class="card-body">
-            <h1 class="card-title"><a name="socialAnchor">Social Media</a></h1>
-            <!--            <div class="d-flex justify-content-sm-around mx-auto">-->
-            <!--                <img src="img/Phone.png" class="img-fluid iconSizing" alt="...">-->
-            <!--                <img src="img/Email.png" class="img-fluid iconSizing" alt="...">-->
-            <!--                <img src="img/GitHub.png" class="img-fluid iconSizing" alt="...">-->
-            <!--                <img src="img/LinkedInIcon.png" class="img-fluid iconSizing" alt="...">-->
-            <!--            </div>-->
+            <h1 class="card-title">SOCIAL MEDIA</h1>
             <div class="container">
                 <div class="row d-flex justify-content-between mx-auto">
                     <div class="col-sm d-flex justify-content-center">
                         <a href="tel:+1-210-508-8480"><img src="img/Phone.png" class="iconSizing" alt="..."></a>
                     </div>
                     <div class="col-sm d-flex justify-content-center">
-                        <a href="mailto:Matthew.R.Hettler@gmail.com" target="_blank"><img src="img/Email.png" class="iconSizing" alt="..."></a>
+                        <a href="mailto:Matthew.R.Hettler@gmail.com" target="_blank"><img src="img/Email.png"
+                                                                                          class="iconSizing" alt="..."></a>
                     </div>
                     <div class="col-sm d-flex justify-content-center mb-2">
-                        <a href="https://github.com/MatthewHettler" target="_blank"><img src="img/GitHub.png" class="iconSizing" alt="..."></a>
+                        <a href="https://github.com/MatthewHettler" target="_blank"><img src="img/GitHub.png"
+                                                                                         class="iconSizing"
+                                                                                         alt="..."></a>
                     </div>
                     <div class="col-sm d-flex justify-content-center">
-                        <a href="https://www.linkedin.com/in/matthew-hettler-0564b81a2/" target="_blank"><img src="img/LinkedInIcon.png" class="iconSizing" alt="..."></a>
+                        <a href="https://www.linkedin.com/in/matthew-hettler-0564b81a2/" target="_blank"><img
+                                src="img/LinkedInIcon.png" class="iconSizing" alt="..."></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-</div>
-<!--///////// CONTAINER END /////////-->
-
-
-<hr>
+<!--///////// CARDS END /////////-->
 
 
 <!--///////// FOOTER START /////////-->
 <footer class="text-muted">
     <div class="container">
         <p class="float-right">
-            <a href="#">Back to top</a>
+            <a href="#" class="nav-link">Back to top</a>
         </p>
     </div>
 </footer>
