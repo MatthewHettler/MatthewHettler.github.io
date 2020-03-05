@@ -14,201 +14,243 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b9c50b62e0.js" crossorigin="anonymous"></script>
 
 </head>
 <!--//////////////////////////////////////////// BODY START ///////////////////////////////////////////////////-->
 <body class="bodyStyle">
 <a name="homeAnchor"></a>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/MHLogo.png" alt="..."
-                                                                            class="navbar-logo" id="sticky"></a>
-            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded"
-                    type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#aboutAnchor">About Me</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resumeAnchor">Resume</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                           href="#projectsAnchor">Projects</a>
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1">
-                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#socialAnchor">Social</a>
-                    </li>
-                </ul>
-            </div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/MHLogo.png" alt="..."
+                                                                        class="navbar-logo" id="sticky"></a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#aboutAnchor">About Me</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#resumeAnchor">Resume</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                       href="#projectsAnchor">Projects</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#socialAnchor">Social</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!--///////// HEADER END /////////-->
+<!--///////// NAV END /////////-->
 
 
-    <!--///////// JUMBOTRON START /////////-->
+<!--///////// HEADER START /////////-->
+<!-- Masthead -->
+<header class="masthead text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
 
-    <section class="jumbotron text-center d-flex flex-column justify-content-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="jumbotron-heading text-uppercase font-weight-bold">Matthew Hettler</h1>
-                    <hr size="3">
-                    <div>
-                        <p class="jumbotron-p">Software Developer - Masters Graduate - Ambitious Professional </p>
-                    </div>
-                </div>
+        <!-- Masthead Avatar Image -->
+        <img class="masthead-avatar mb-5" src="img/placeholder_headshot.png" alt="">
+
+        <!-- Masthead Heading -->
+        <h1 class="masthead-heading text-uppercase mb-0">Matthew Hettler</h1>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
             </div>
+            <div class="divider-custom-line"></div>
         </div>
+
+        <!-- Masthead Subheading -->
+        <p class="masthead-subheading font-weight-light mb-0">Software Developer - Masters Graduate - Web Designer</p>
         <a name="aboutAnchor"></a>
-    </section>
-<!--///////// JUMBOTRON END /////////-->
+    </div>
+</header>
+<!--///////// HEADER END /////////-->
 
 
 <!--/////////  CARDS START /////////-->
-    <!-- Content here -->
-    <div class="card shadow-lg mb-0 bg-white rounded-0" style="width: 100%;">
-        <div class="card-body">
-            <h1 class="card-title">ABOUT</h1>
-            <p>An ambitious software developer with aspirations to grow and learn any skillset needed to
-                get the job done. Solving problems, whether they're simple or complex, is a strong passion
-                of mine. Opportunities that utilizes or develops my skills to solve real world problems, that
-                help or inspire, are welcome.</p>
+<!-- Content here -->
+<div class="card about-card shadow-lg mb-0 bg-white rounded-0 border-0" style="width: 100%;">
+    <div class="card-body">
+        <h1 class="card-title about-title">ABOUT</h1>
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
         </div>
-        <a name="resumeAnchor"></a>
+        <p>An ambitious software developer with aspirations to grow and learn any skillset needed to
+            get the job done. Solving problems, whether they're simple or complex, is a strong passion
+            of mine. Opportunities that utilizes or develops my skills to solve real world problems, that
+            help or inspire, are welcome.</p>
     </div>
-    <!--=================================================================================================================-->
-    <div class="card shadow-lg mb-0 bg-white rounded-0" style="width: 100%;">
-        <div class="card-body">
-            <h1 class="card-title">RESUME</h1>
-            <object data="img/Matthew_Hettler.pdf" type="application/pdf" class="resume embed-responsive">
-                <p>It appears you don't have a PDF plugin for this browser.
-                    Not a problem, you can <a href="img/Matthew_Hettler.pdf">click here</a> to
-                    download the PDF file.</p>
-            </object>
+    <a name="resumeAnchor"></a>
+</div>
+<!--=================================================================================================================-->
+<div class="card resume-card shadow-lg mb-0 bg-white rounded-0 border-0" style="width: 100%;">
+    <div class="card-body resume-body">
+        <h1 class="card-title resume-title">RESUME</h1>
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
         </div>
-        <a name="projectsAnchor"></a>
+        <object data="img/Matthew_Hettler_V4.pdf" type="application/pdf" class="resume embed-responsive">
+            <p>It appears you don't have a PDF plugin for this browser.
+                Not a problem, you can <a href="img/Matthew_Hettler_V4.pdf">click here</a> to
+                download the PDF file.</p>
+        </object>
     </div>
-    <!--=================================================================================================================-->
-    <div class="card shadow-lg mb-0 bg-white rounded-0" style="width: 100%;">
-        <div class="card-body">
-            <h1 class="card-title">PORTFOLIO</h1>
-
-            <div class="row">
-                <div class="col-sm-6 card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="img/codingimage.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Capstone</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
+    <a name="projectsAnchor"></a>
+</div>
+<!--=================================================================================================================-->
+<div class="card shadow-lg mb-0 bg-white rounded-0 border-0" style="width: 100%;">
+    <div class="card-body">
+        <h1 class="card-title portfolio-title">PORTFOLIO</h1>
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
             </div>
-
-
-            <div class="row">
-                <div class="col-sm-6 card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="img/codingimage.jpeg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Adlister</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="col-sm-6 card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="img/Student_Database_App.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Student Database App</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-sm-6 card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="img/Email_Administration_App.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Email Administration App</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="col-sm-6 card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="img/Movie_Project.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Movie Project</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="row">
-                <div class="col-sm-6 card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="img/Weather_Map_Project.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Weather Map Project</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-                <div class="col-sm-6 card mx-auto" style="width: 18rem;">
-                    <img class="card-img-top" src="img/Coffee_Project.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Coffee Project</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-
-
+            <div class="divider-custom-line"></div>
         </div>
-        <a name="socialAnchor"></a>
-    </div>
-    <!--=================================================================================================================-->
-    <div class="card shadow-lg mb-0 bg-white rounded-0" style="width: 100%;">
-        <div class="card-body">
-            <h1 class="card-title">SOCIAL MEDIA</h1>
-            <div class="container">
-                <div class="row d-flex justify-content-between mx-auto">
-                    <div class="col-sm d-flex justify-content-center">
-                        <a href="tel:+1-210-508-8480"><img src="img/Phone.png" class="iconSizing" alt="..."></a>
-                    </div>
-                    <div class="col-sm d-flex justify-content-center">
-                        <a href="mailto:Matthew.R.Hettler@gmail.com" target="_blank"><img src="img/Email.png"
-                                                                                          class="iconSizing" alt="..."></a>
-                    </div>
-                    <div class="col-sm d-flex justify-content-center mb-2">
-                        <a href="https://github.com/MatthewHettler" target="_blank"><img src="img/GitHub.png"
-                                                                                         class="iconSizing"
-                                                                                         alt="..."></a>
-                    </div>
-                    <div class="col-sm d-flex justify-content-center">
-                        <a href="https://www.linkedin.com/in/matthew-hettler-0564b81a2/" target="_blank"><img
-                                src="img/LinkedInIcon.png" class="iconSizing" alt="..."></a>
-                    </div>
+        <div class="row">
+            <div class="col-sm-12 card mx-auto rounded-0 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="img/codingimage.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">CAPSTONE</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary border-0">VIEW ON GITHUB</a>
                 </div>
             </div>
         </div>
+
+
+        <div class="row">
+            <div class="col-sm-6 card mx-auto rounded-0 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="img/codingimage.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">ADLISTER</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary border-0">VIEW ON GITHUB</a>
+                </div>
+            </div>
+            <div class="col-sm-6 card mx-auto rounded-0 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="img/Student_Database_App.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">STUDENT DATABASE APP</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary border-0">VIEW ON GITHUB</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-6 card mx-auto rounded-0 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="img/Email_Administration_App.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">EMAIL ADMINISTRATION APP</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary border-0">VIEW ON GITHUB</a>
+                </div>
+            </div>
+            <div class="col-sm-6 card mx-auto rounded-0 mb-3" style="width: 18rem;">
+                <img class="card-img-top" src="img/Movie_Project.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">MOVIE PROJECT</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary border-0">VIEW ON GITHUB</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-6 card mx-auto rounded-0" style="width: 18rem;">
+                <img class="card-img-top" src="img/Weather_Map_Project.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">WEATHER MAP PROJECT</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary border-0">VIEW ON GITHUB</a>
+                </div>
+            </div>
+            <div class="col-sm-6 card mx-auto rounded-0" style="width: 18rem;">
+                <img class="card-img-top" src="img/Coffee_Project.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">COFFEE PROJECT</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+                    <a href="#" class="btn btn-primary border-0">VIEW ON GITHUB</a>
+                </div>
+            </div>
+        </div>
+
+
     </div>
+    <a name="socialAnchor"></a>
+</div>
+<!--=================================================================================================================-->
+<div class="card shadow-lg mb-0 rounded-0 border-0" style="width: 100%;">
+    <div class="card-body social-body">
+        <h1 class="card-title social-title">SOCIAL MEDIA</h1>
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <div class="container">
+            <div class="row d-flex justify-content-between mx-auto">
+                <div class="col-sm d-flex justify-content-center">
+                    <a href="tel:+1-210-508-8480"><img src="img/Phone.png" class="iconSizing" alt="..."></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center">
+                    <a href="mailto:Matthew.R.Hettler@gmail.com" target="_blank"><img src="img/Email.png"
+                                                                                      class="iconSizing" alt="..."></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center mb-2">
+                    <a href="https://github.com/MatthewHettler" target="_blank"><img src="img/GitHub.png"
+                                                                                     class="iconSizing"
+                                                                                     alt="..."></a>
+                </div>
+                <div class="col-sm d-flex justify-content-center">
+                    <a href="https://www.linkedin.com/in/matthew-hettler-0564b81a2/" target="_blank"><img
+                            src="img/LinkedInIcon.png" class="iconSizing" alt="..."></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!--///////// CARDS END /////////-->
 
 
